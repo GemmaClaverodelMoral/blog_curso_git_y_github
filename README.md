@@ -23,6 +23,7 @@
 * git checkout master biografy.txt: Me muestra la ultima version
 ## Practica de ramas
 * git commit -am: hace commit solo de los archivos que ya se habian hecho commits antes
+* git merge <ramaY>: le fusiona la rama Y que queramos fusionarle... si hay conflictos... ya veremos a la rama en donde estemos
 
 
 
