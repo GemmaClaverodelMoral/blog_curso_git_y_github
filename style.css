@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .post {
     color:cadetblue;
@@ -16,4 +17,8 @@ body {
 }
 .post p {
     font-size: 30px;
+}
+#nuevo_p {
+    font-size: 20px;
+    color:rgb(64, 103, 105);
 }
