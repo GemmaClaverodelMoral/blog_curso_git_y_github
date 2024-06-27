@@ -23,6 +23,11 @@
 * git checkout master biografy.txt: Me muestra la ultima version
 ## Practica de ramas
 * git commit -am: hace commit solo de los archivos que ya se habian hecho commits antes
+* Las ramas se cran desde la rama donde yo este ene este momento
+* git branch <cabecera> : crea
+* git checkout cabecera: Me lleva a rama <cabecera>
+
+
 
 
 
