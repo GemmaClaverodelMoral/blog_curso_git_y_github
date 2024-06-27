@@ -4,7 +4,7 @@
 * code: Abre code en el directorio actual
 * git add .: incluye todos los archivos en el dir a la version. Sube al Staging: MEmoria RAM. Estado temporal
 * git add <letra> tab : autocompletado
-* git rm <biografy.txr> : elimina el archivo de la version a subir
+* git rm <biografy.txt> : elimina el archivo <x> del commit.
 * git commit -m "mensaje": Deja los archivos incluidos en un limbo con mensaje de version. Sube al repositorio master
 * git config --list-show-origin: Me muestra elementos de configuracion necesaria
 * git config --global user.name "Gemma clavero": asocia mi nombre al user que va a trabajar con este control de versiones
@@ -17,6 +17,12 @@
 * git reset <numero larguisimo version x> --hard   : Volver a la version vieja (borra todo)
 * git reset <numero larguisimo version x> --soft   : Volver a la version vieja pero guradando todo lo posterior
 * git diff: Me dice las diferencias entre los archivos en el staging y mi directorio
+* Q: Para salir del log?
+* git log --stat: Cambios de todos los archivos ?
+* git checkout <numero largo> biografy.txt: Me muestra esa version a ver...
+* git checkout master biografy.txt: Me muestra la ultima version
+## Practica de ramas
+* git commit -am: hace commit solo de los archivos que ya se habian hecho commits antes
 
 
 

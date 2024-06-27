@@ -1,5 +1,19 @@
 body {
-    text-align: center;
-    color:blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    color:cadetblue;
+    width: 70%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px black solid;
+}
+.post h1 {
     font-size: 40px;
+}
+.post p {
+    font-size: 30px;
 }
