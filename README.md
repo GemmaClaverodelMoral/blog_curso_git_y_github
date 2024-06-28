@@ -12,13 +12,12 @@
 * git confif --global user.email "casagemmayraul@yahoo.es": asocia el email
 * git log: Muestra los cambios hechos en la configuracion
 * git show <archivo>: Muestra los cambios hechos en ese archivo
-* shift zz: te saca de las pantallas raras de git
+* shift zz o Q: te saca de las pantallas raras de git
 * No me salen todos los cambio de una. Tengo que ir haciendo enter si el editor tiene una altura muy peque
 * git diff <numero larguisimo versionX> <numero larguissimo versionY>: me muestra las diferencias de version
 * git reset <numero larguisimo version x> --hard   : Volver a la version vieja (borra todo)
 * git reset <numero larguisimo version x> --soft   : Volver a la version vieja pero guradando todo lo posterior
 * git diff: Me dice las diferencias entre los archivos en el staging y mi directorio
-* Q: Para salir del log?
 * git log --stat: Cambios de todos los archivos ?
 * git checkout <numero largo> biografy.txt: Me muestra esa version a ver...
 * git checkout master biografy.txt: Me muestra la ultima version
@@ -41,9 +40,29 @@
 * git pull origin main: code ayuda, pero para bajar cambios manual
 
 # Conflictos de archivos en remoto que no tienen la misma historia (tipo README o .gitignore creados en la nube)
-* git pull origin main --allow-unrelated-histories
+* git pull origin main --allow-unrelated-histories: arreglar los conflictos de falta de histaria comun
 * git status para revisar
-* git pull origin main
+* git pull origin main: Descargar sin problema
+
+## Varios 
+* git log --all --graph --decorate --online: visualizar los commits comprimidos
+* git config --global alias.lgr 'log --all --graph --decorate --oneline': crear alias
+* git lgr: Ejecuta el alias
+* git config --global --unset alias.<alias>: elimina el alias
+* git config --global --get-regexp alias: ver los alias existentes
+
+## TAGS : versionar
+* git tag -a v0.1 -m 'Ponemos version v0.1 al estado actual del proyecto' 6a24397: definir version a un commit en particular
+* git tag: muestra version
+* git show-ref --tags: Muestra version pero con el numero laaargo
+* git push origin --tags: Sube los tags creados. Luego en el <code> en el boton de main donde se cambia la rama visible, se puede poner en lugar de rama (branch), una version x.0 en su lugar.
+* git tag -d <nombretag>: borrar un tag
+
+## Subir RAMAS al servidor:
+* git show-branch --all: ver todas las ramas con sus commits.
+* gitk: Abre editor diciente (flujo) Cheverisimo pero todos en CMD
+* git branch: muestra todas las ramas
+* git checkout <cabecera>: ir a cabecera
 
 
 
