@@ -10,11 +10,22 @@ body {
     border: 4px cadetblue solid;
     margin-top: 20px;
     padding: 0 20px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 70%;
     font-size: 40px;
     box-shadow:cadetblue;
     text-align: center;
+    
+}
+.cabecera img {
+    width: 80px;
+    height: 80px;
+
+}
+.cabecera p:nth-child(2) {
+    font-weight: bold;
 }
 .post {
     color:cadetblue;
