@@ -68,6 +68,8 @@
 ## Buenas practicas:
 * Hacer siempre > git pull origin main: Antes de cualquier cosa por si en el servidor han habido cambios del equipo
 * A main solo se envia lo que estoy seguro que esta listo para produccion
+* git clean -f: Borra todos los archivos que no esten indexados en git y que no esten en .gitignore
+* git --dry-run: No me acuerdo?
 
 ## Gestion de colaboradores
 * Colaborators de GitHub y se incluyen los correos, se manda link, etc. Todo desde Github
