@@ -37,7 +37,7 @@
 * git branch -m main: Se cambia el nombre de master a main
 * git push origin main
 **** Realmente GITHUB lo ayuda a uno ha hacer todos los pasos. **** copi paste
-
+* git pull origin main: code ayuda, pero para bajar cambios manual
 
 
 
