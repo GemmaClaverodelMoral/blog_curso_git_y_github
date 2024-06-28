@@ -33,3 +33,10 @@ body {
     font-size: 20px;
     color:rgb(64, 103, 105);
 }
+
+footer {
+    display:flex;
+    justify-content: center;
+    color:deeppink;
+    font-size: 30px;
+}
