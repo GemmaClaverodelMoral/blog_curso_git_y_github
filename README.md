@@ -75,7 +75,9 @@
 * Se hace > git merge fooder y git merge heather y si hay conflictos, se resuelven manualito comparando
 
 ## PULL Request: Gestionar aportes de no colaboradores oficiales
-
+* git branch -d <rama>: para borrar ramas en local que ya no se van a usar
+* git push origin --delete <rama>: para borrar rama remota
+* git branch -r: para ver que ramas remotas tenemos disponibles.
 
 
 
