@@ -21,12 +21,23 @@
 * git log --stat: Cambios de todos los archivos ?
 * git checkout <numero largo> biografy.txt: Me muestra esa version a ver...
 * git checkout master biografy.txt: Me muestra la ultima version
+
 ## Practica de ramas
 * git commit -am: hace commit solo de los archivos que ya se habian hecho commits antes
 * Las ramas se cran desde la rama donde yo este ene este momento
 * git branch <cabecera> : crea
 * git checkout cabecera: Me lleva a rama <cabecera>
 * git merge <ramaY>: le fusiona la rama Y que queramos fusionarle... si hay conflictos... ya veremos a la rama en donde estemos
+
+## Practica de uso de SSH
+* Me enrede un poco todavia no la tengo clara pero ya tengo clave SSH
+
+## Practica de enlace con repositorio de GitHub
+* git remote add origin: 
+* git branch -m main: Se cambia el nombre de master a main
+* git push origin main
+**** Realmente GITHUB lo ayuda a uno ha hacer todos los pasos. **** copi paste
+
 
 
 
