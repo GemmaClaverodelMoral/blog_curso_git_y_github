@@ -65,5 +65,12 @@
 * git checkout <cabecera>: ir a cabecera
 * git push origin <cabecera>: me lleva todo a la rama cabecera
 
+## Buenas practicas:
+* Hacer siempre > git pull origin main: Antes de cualquier cosa por si en el servidor han habido cambios del equipo
+* A main solo se envia lo que estoy seguro que esta listo para produccion
+
+## Gestion de colaboradores
+* Colaborators de GitHub y se incluyen los correos, se manda link, etc. Todo desde Github
+
 
 
