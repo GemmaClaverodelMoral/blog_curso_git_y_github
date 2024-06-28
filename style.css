@@ -7,21 +7,21 @@ body {
 }
 .cabecera {
     background-color: rgb(138, 233, 236);
-    border: 4px cadetblue solid;
+    border: 2px cadetblue solid;
     margin-top: 20px;
     padding: 0 20px;
     display: inline-block;
     width: 70%;
     font-size: 40px;
-    box-shadow:cadetblue;
     text-align: center;
+    border-radius: 10px 10px 0 0;
 }
 .post {
     color:cadetblue;
     width: 70%;
     padding: 20px;
-    margin: 20px;
-    border: 1px black solid;
+    margin-top: 0px;
+    border: 2px cadetblue solid;
 }
 .post h1 {
     font-size: 40px;
@@ -35,8 +35,14 @@ body {
 }
 
 footer {
-    display:flex;
+    padding: 0 20px;
+    display: inline-block;
+    text-align: center;
+    width: 70%;
     justify-content: center;
     color:deeppink;
     font-size: 30px;
+    background-color:azure;
+    border: 2px cadetblue solid;
+    border-radius: 0px 0px 10px 10px;
 }
