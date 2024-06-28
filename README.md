@@ -72,12 +72,26 @@
 ## Gestion de colaboradores
 * Colaborators de GitHub y se incluyen los correos, se manda link, etc. Todo desde Github
 * Se crean ramas para que cada colaborador haga su trabajo en cada rama
-* Se hace > git merge fooder y git merge heather y si hay conflictos, se resuelven manualito comparando
+* git merge fooder y git merge heather y si hay conflictos, se resuelven manualito comparando
 
 ## PULL Request: Gestionar aportes de no colaboradores oficiales
 * git branch -d <rama>: para borrar ramas en local que ya no se van a usar
 * git push origin --delete <rama>: para borrar rama remota
 * git branch -r: para ver que ramas remotas tenemos disponibles.
-
+* GITHUB: boton Watch: Para ver los cambios de ese proyecto que nos interesa
+* GITHUB: boton Fork: Para clonar un cooia del estado actual del repositorio en nuestro local
+* GITHUB: boton : Estrella para indicar que me gusta el proyecto y lo sigo.
+* cmd: git clone <con URL del repositorio clonado con Fork>
+* GITHUB: Despues de subir el cambio a GITHUB En mi clon en GitHUB hago click en New Pull Request
+* GITHUB: Se indica con las opciones la rama donde se han hecho los cambios y la rama donde se quiere colaborar con los cambios
+* Al dueño del proyecto le llega correo, mensaje en GITHUB, y se enciende la Pull Request. Le dices ok o lo que quieras y haces click en el boton de aceptar merge.
+ 
+## Quedo desactualizado en mi fork en relacion al proyecto original que Forkee. Entonces:
+* git remote add upstream <URL proyecto remoto original al que voy a hacer Fork
+* git pull upstream main: Copia del upstream al local
+* git commit -am "fusion"
+* git push origin main Copia a mi version en GITHUB
+  la verdad .... no entiendo muy bien todo esto.
+  
 
 
