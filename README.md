@@ -55,7 +55,7 @@
 * git tag -a v0.1 -m 'Ponemos version v0.1 al estado actual del proyecto' 6a24397: definir version a un commit en particular
 * git tag: muestra version
 * git show-ref --tags: Muestra version pero con el numero laaargo
-* git push origin --tags: Sube los tags creados. Luego en el <code> en el boton de main donde se cambia la rama visible, se puede poner en lugar de rama (branch), una version x.0 en su lugar.
+* git push origin --tags: Sube los tags creados. Luego en el code en el boton de main donde se cambia la rama visible, se puede poner en lugar de rama (branch), una version x.0 en su lugar.
 * git tag -d <nombretag>: borrar un tag
 
 ## Subir RAMAS al servidor:
