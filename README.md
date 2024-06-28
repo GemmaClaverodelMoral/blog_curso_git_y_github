@@ -114,6 +114,9 @@
 * git stash branch <english-version>: creacion de la rama que va a contener los cambios del stash
 * git commit -am 'I speek english': Se pueden subir los cambios del stash a una rama nueva
 * git stash drop: Borra todos los cambios hasta el ultimo commit que se hizo
+
+* git cherry-pick <numero7digitos> : me hace merge de solo el commit que he decidido pese a que en la rama pueda haber mas commits posteriores. Mala practica
+
   
 
 
