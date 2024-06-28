@@ -72,6 +72,7 @@
 ## Gestion de colaboradores
 * Colaborators de GitHub y se incluyen los correos, se manda link, etc. Todo desde Github
 * Se crean ramas para que cada colaborador haga su trabajo en cada rama
+* Se hace > git merge fooder y git merge heather y si hay conflictos, se resuelven manualito comparando
 
 
 
