@@ -95,8 +95,8 @@
 
 ## Imagenes asociadas al proyecto y .gitignore
 * las imagenes se alojan en la nube y se hacen referencia. No es buena practica subirlas con el proyecto
-* usar www.imgur.com para subir las imagenes del proyecto (por ejemplo)
-* 
+* las alojo en mi cuenta de facebook y funcionan perfect
+* creacion de .gitignore para decirle al proyecto que archivos no subir al repositorio 
   
 
 
