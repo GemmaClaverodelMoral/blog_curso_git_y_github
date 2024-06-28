@@ -92,6 +92,11 @@
 * git commit -am "fusion"
 * git push origin main Copia a mi version en GITHUB
   la verdad .... no entiendo muy bien todo esto.
+
+## Imagenes asociadas al proyecto y .gitignore
+* las imagenes se alojan en la nube y se hacen referencia. No es buena practica subirlas con el proyecto
+* usar www.imgur.com para subir las imagenes del proyecto (por ejemplo)
+* 
   
 
 
