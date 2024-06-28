@@ -22,7 +22,7 @@
 * git checkout <numero largo> biografy.txt: Me muestra esa version a ver...
 * git checkout master biografy.txt: Me muestra la ultima version
 
-## Practica de ramas
+## Practica de fusion de ramas
 * git commit -am: hace commit solo de los archivos que ya se habian hecho commits antes
 * Las ramas se cran desde la rama donde yo este ene este momento
 * git branch <cabecera> : crea
@@ -63,7 +63,7 @@
 * gitk: Abre editor diciente (flujo) Cheverisimo pero todos en CMD
 * git branch: muestra todas las ramas
 * git checkout <cabecera>: ir a cabecera
-
+* git push origin <cabecera>: me lleva todo a la rama cabecera
 
 
 
