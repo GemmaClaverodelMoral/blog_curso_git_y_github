@@ -95,8 +95,14 @@
 
 ## Imagenes asociadas al proyecto y .gitignore
 * las imagenes se alojan en la nube y se hacen referencia. No es buena practica subirlas con el proyecto
+
+## Creacion de paginas en GITHUP Pages
+* crear un archivo index.html
+* llamar a la pagina <loquesea>.github.io
 * las alojo en mi cuenta de facebook y funcionan perfect
-* creacion de .gitignore para decirle al proyecto que archivos no subir al repositorio 
+* creacion de .gitignore para decirle al proyecto que archivos no subir al repositorio
+
+## Editor de MarkDown: https://pandao.github.io/editor.md/en.html
   
 
 
