@@ -7,6 +7,7 @@
 * git rm <biografy.txt> : elimina el archivo <x> del commit.
 * git commit -m "mensaje": Deja los archivos incluidos en un limbo con mensaje de version. Sube al repositorio master
 * git config --list-show-origin: Me muestra elementos de configuracion necesaria
+* git vonfif -l: Tambien muestra los archivos
 * git config --global user.name "Gemma clavero": asocia mi nombre al user que va a trabajar con este control de versiones
 * git confif --global user.email "casagemmayraul@yahoo.es": asocia el email
 * git log: Muestra los cambios hechos en la configuracion
@@ -39,6 +40,10 @@
 **** Realmente GITHUB lo ayuda a uno ha hacer todos los pasos. **** copi paste
 * git pull origin main: code ayuda, pero para bajar cambios manual
 
+# Conflictos de archivos en remoto que no tienen la misma historia (tipo README o .gitignore creados en la nube)
+* git pull origin main --allow-unrelated-histories
+* git status para revisar
+* git pull origin main
 
 
 
