@@ -102,7 +102,16 @@
 * las alojo en mi cuenta de facebook y funcionan perfect
 * creacion de .gitignore para decirle al proyecto que archivos no subir al repositorio
 
-## Editor de MarkDown: https://pandao.github.io/editor.md/en.html
+## Editor de MarkDown: 
+* https://pandao.github.io/editor.md/en.html
+
+## Cambios temporales
+* git stach: Esto guarda los cambios en un nuevo stash y limpia tu área de trabajo.
+* git stash list: Para ver todos los stashes almacenados
+* git stash pop: Para recuperar los cambios más recientes guardados en el stash
+* git stash branch <english-version>: creacion de la rama que va a contener los cambios del stash
+* git commit -am 'I speek english': Se pueden subir los cambios del stash a una rama nueva
+* git stash drop: Borra todos los cambios hasta el ultimo commit que se hizo
   
 
 
