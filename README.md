@@ -116,7 +116,12 @@
 * git stash drop: Borra todos los cambios hasta el ultimo commit que se hizo
 
 * git cherry-pick <numero7digitos> : me hace merge de solo el commit que he decidido pese a que en la rama pueda haber mas commits posteriores. Mala practica
-
+* git reset --hard <numero7digitos> : Reseteas la historia hasta el punto indicado. Mala practica
+* git commit --amend: Los cambios que haya sumado con git add <archivo> me los suma al commit anterior que hice (remendar)
+* git grep -n color: Me dice en que archivos encuentra la palabra color y en que lineas
+* git grep -c color: Me cuenta la cantidad de 'color' en los archivos del proyecto
+* git log ...: Lo mismo pero en los commits
+  
   
 
 
